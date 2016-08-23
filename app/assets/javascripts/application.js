@@ -14,11 +14,16 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-$(#menu_1).click(function(){
-  $(#Rules).removeClass('show').removeClass('hide').addClass('show');
-  $(#Policy).removeClass('show').addClass('hide');
-});
-$(#menu_2).click(function(){
-  $(#Rules).removeClass('show').addClass('hide');
-  $(#Policy).removeClass('hide').addClass('show');
+$(document).ready(function() {
+
+     $('#menu_1').click(function() {
+       $("#rules").removeClass('hide').addClass('show');
+       $("#policy").removeClass('show').addClass('hide');
+     });
+
+   $('#menu_2').click(function() {
+     $("#rules").removeClass('show').addClass('hide');
+     $("#policy").removeClass('hide').addClass('show');
+   });
+
 });

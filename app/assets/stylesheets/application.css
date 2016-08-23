@@ -1,15 +1,81 @@
-body{
+body {
   background-color: #663399;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+.hide{
+  display: none;
+}
+.show{
+  display:block;
+}
+
+#box {
+  height: 380px;
+  width: 550px;
+  background-color: #551A8B;
+  float: left;
+  margin-left: 140px;
+  margin-top: 25px;
+}
+#box2 {
+  background-color: #663399;
+  height: 150px;
+  width: 550px;
+  float: left;
+  margin-left: 140px;
+  margin-top: 20px;
+  text-align: center;
+}
+#media-images {
+  background-color: #663399;
+  width: 200px;
+  height: 150px;
+  margin-left: 225px;
+  float: left;
+}
+#email-link {
+  background-color: white;
+  float: left;
+  text-align: center;
+  color: #663399;
+  padding: inherit;
+
+
+}
+
+p {
+  padding-left: 15px;
+  font-size: 11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  text-align: left;
+  color: gray;
+}
+
+p.text {
+  color: white;
+  font-size: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h3 {
+  color: #663399;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 
 div {
   background-color: white;
-  height: 1000px;
-  width: 500px;
-  position: relative;
+  height: 635px;
+  width: 450px;
   float: right;
-
 }
 /* Style the list */
 ul.tab {
@@ -22,23 +88,33 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li {
+  float: left;
+}
 
 /* Style the links inside the list items */
-ul.tab li a {
+ul.tab li {
     display: inline-block;
-    color: black;
+    color: #663399;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+
 }
 /* Change background color of links on hover */
-ul.tab li a:hover {background-color: #ddd;}
+ul.tab li:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
 
 /* Create an active/current tablink class */
-ul.tab li a:focus, .active {background-color: #ccc;}
+ul.tab li:focus, .active {
+  background-color: #ccc;
+}
 
 /* Style the tab content */
 .tabcontent {
@@ -46,10 +122,4 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
-}
-.hide{
-  display: none;
-}
-.show{
-  display:block;
 }
