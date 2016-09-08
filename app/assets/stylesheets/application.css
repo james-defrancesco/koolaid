@@ -58,7 +58,7 @@ ul.tab li:focus, .active {
 #rules_privacy {
   float: right;
   width: 30%;
-  height: 633px;
+  height: 100vh;
   background-color: white;
   overflow: scroll;
 }
@@ -97,7 +97,7 @@ p {
   color: #663399;
 }
 #media-images {
-  margin-left: 373px;
+  margin-left: 360px;
 }
 p {
   padding-left: 15px;
